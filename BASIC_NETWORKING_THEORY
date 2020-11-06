@@ -1,0 +1,609 @@
+
+What is Computer Network?
+A computer network is a set of devices connected through links. A node can be computer, printer, or any other device capable of sending or receiving the data. The links connecting the nodes are known as communication channels.
+
+
+Hub
+Hub is a central device that splits the network connection into multiple devices. When computer requests for information from a computer, it sends the request to the Hub. Hub distributes this request to all the interconnected computers.
+
+
+Switches
+Switch is a networking device that groups all the devices over the network to transfer the data to another device. A switch is better than Hub as it does not broadcast the message over the network, i.e., it sends the message to the device for which it belongs to. Therefore, we can say that switch sends the message directly from source to the destination.
+
+Router
+Router is a device that connects the LAN to the internet. The router is mainly used to connect the distinct networks works in network layer
+
+Modem
+Modem connects the computer to the internet over the existing telephone line. A modem is not integrated with the computer motherboard. A modem is a separate part on the PC slot found on the motherboard. 
+
+most important feature of network - Speed , Security
+
+                                                                -Computer Network Architecture-
+
+Computer Network Architecture is defined as the physical and logical design of the software, hardware, protocols, and media of the transmission of data. Simply we can say that how computers are organized and how tasks are allocated to the computer.
+
+The two types of network architectures are used
+ Peer-To-Peer network
+ Client/Server network
+
+Peer-To-Peer network
+    It is a network in which all the computers are linked together with equal privilege and responsibilities for processing the data.
+    It is useful for small environments, usually up to 10 computers.
+    It has no dedicated server.
+    Special permissions are assigned to each computer for sharing the resources, but this can lead to a problem if the computer with the resource is down.
+
+Client/Server Network
+Client/Server network is a network model designed for the end users called clients, to access the resources such as songs, video, etc. from a central computer known as Server.
+    The central controller is known as a server while all other computers in the network are called clients.
+    A server performs all the major operations such as security and network management.
+
+
+																																				-COMPUTER NETWORKS-
+
+A computer network is a group of computers linked to each other that enables the computer to communicate with another computer and share their resources, data, and applications.
+
+A computer network can be categorized by their size. A computer network is mainly of four types:
+Computer Network Types
+
+LAN(Local Area Network)
+PAN(Personal Area Network)
+MAN(Metropolitan Area Network)
+WAN(Wide Area Network)
+
+
+                 				                                               -LAN(Local Area Network)-
+
+    Local Area Network is a group of computers connected to each other in a small area such as building, office.
+    LAN is used for connecting two or more personal computers through a communication medium such as twisted pair, coaxial cable, etc.
+    It is less costly as it is built with inexpensive hardware such as hubs, network adapters, and ethernet cables.
+    The data is transferred at an extremely faster rate in Local Area Network.
+
+
+									                                                      PAN(Personal Area Network)
+
+    Personal Area Network is a network arranged within an individual person, typically within a range of 10 meters.
+    Personal Area Network is used for connecting the computer devices of personal use is known as Personal Area Network.
+    Thomas Zimmerman was the first research scientist to bring the idea of the Personal Area Network.
+    Personal Area Network covers an area of 30 feet.
+    Personal computer devices that are used to develop the personal area network are the laptop, mobile phones, media player and play stations.
+
+
+There are two types of Personal Area Network:
+    Wired Personal Area Network
+    Wireless Personal Area Network
+           
+Wireless Personal Area Network: Wireless Personal Area Network is developed by simply using wireless technologies such as WiFi, Bluetooth. It is a low range network.
+
+Wired Personal Area Network: Wired Personal Area Network is created by using the USB.
+
+
+									                                                   MAN(Metropolitan Area Network)
+
+    A metropolitan area network is a network that covers a larger geographic area by interconnecting a different LAN to form a larger network.
+    Government agencies use MAN to connect to the citizens and private industries.
+    In MAN, various LANs are connected to each other through a telephone exchange line.
+    The most widely used protocols in MAN are RS-232, Frame Relay, ATM, ISDN, OC-3, ADSL, etc.
+    It has a higher range than Local Area Network(LAN).
+
+
+                					                                            WAN(Wide Area Network)
+
+    A Wide Area Network is a network that extends over a large geographical area such as states or countries.
+    A Wide Area Network is quite bigger network than the LAN.
+    A Wide Area Network is not limited to a single location, but it spans over a large geographical area through a telephone line, fibre optic cable or satellite links.
+    The internet is one of the biggest WAN in the world.
+    A Wide Area Network is widely used in the field of Business, government, and education.
+
+
+																																			INTERNETWORK  
+
+    An internetwork is defined as two or more computer network LANs or WAN or computer network segments are connected using devices, and they are configured by a local addressing scheme. This process is known as internetworking.
+    An interconnection between public, private, commercial, industrial, or government computer networks can also be defined as internetworking.
+    An internetworking uses the internet protocol.
+    The reference model used for internetworking is Open System Interconnection(OSI).
+
+                                                                                         				
+ 									                                                      TOPOLOGIES
+Topology defines the structure of the network of how all the components are interconnected to each other. 
+There are two types of topology: physical and logical topology.
+
+1 . Bus Topology
+
+    The bus topology is designed in such a way that all the stations are connected through a single cable known as a backbone cable.
+    When a node wants to send a message over the network, it puts a message over the network. All the stations available in the network will receive the message whether it has been addressed or not.
+  advanatages : low cost , moderate data speed
+
+2 .Ring topology 
+ It is like a bus topology, but with connected ends.
+The node that receives the message from the previous computer will retransmit to the next node.
+The data flows in one direction, i.e., it is unidirectional.
+The data flows in a single loop continuously known as an endless loop.
+It has no terminated ends, i.e., each node is connected to other node and having no termination point.
+The data in a ring topology flow in a clockwise direction.
+
+
+ 3.  Star Topology 
+    It is an arrangement of the network in which every node is connected to the central hub, switch or a central computer.
+    The central computer is known as a server, and the peripheral devices attached to the server are known as clients.
+    Hubs or Switches are mainly used as connection devices in a physical star topology.
+    Star topology is the most popular topology in network implementation. advanate : speed , less cost ,easilly troubleshoot
+
+
+4 .Tree Topology  
+    It  combines the characteristics of bus topology and star topology.
+    A tree topology is a type of structure in which all the computers are connected with each other in hierarchical fashion.
+    The top-most node in tree topology is known as a root node, and all other nodes are the descendants of the root node.
+    There is only one path exists between two nodes for the data transmission. Thus, it forms a parent-child hierarchy.
+
+
+5 . Mesh Topology
+    It is an arrangement of the network in which computers are interconnected with each other through various redundant connections.
+    There are multiple paths from one computer to another computer.
+    It does not contain the switch, hub or any central computer which acts as a central point of communication.
+    The Internet is an example of the mesh topology.
+    Mesh topology is mainly used for WAN implementations where communication failures are a critical concern.
+    Mesh topology is mainly used for wireless networks.
+    Mesh topology can be formed by using the formula:
+    Number of cables = (n*(n-1))/2;
+    advnt  : Reliable , Fast Communciation , Easier Configuration
+
+
+6 . Hybrid Topology
+    The combination of various different topologies is known as Hybrid topology.
+    A Hybrid topology is a connection between different links and nodes to transfer the data.
+    When two or more different topologies are combined together is termed as Hybrid topology and if similar topologies are connected with each other will not result in Hybrid topology. For example, if          there exist a ring topology in one branch of ICICI bank and bus topology in another branch of ICICI bank, connecting these two topologies will result in Hybrid topology.
+
+
+
+									                                                Transmission modes
+
+    The way in which data is transmitted from one device to another device is known as transmission mode.
+    Each communication channel has a direction associated with it, and transmission media provide the direction. Therefore, the transmission mode is also known as a directional mode.
+    The transmission mode is defined in the physical layer.
+
+    types :
+    Simplex mode :  the communication is unidirectional, i.e., the data flow in one direction.
+    Half-duplex mode : In a Half-duplex channel, direction can be reversed, i.e., the station can transmit and receive the data as well. Messages flow in both the directions, but not at the same time.
+    Full-duplex mode : In this mode communication is bi-directional, i.e., the data flow in both the directions. Both the stations can send and receive the message simultaneously.
+
+
+								                                                COMPUTER NETWORK MODELS
+
+A communication subsystem is a complex piece of Hardware and software. Early attempts for implementing the software for such subsystems were based on a single, complex, unstructured program with many interacting components. The resultant software was very difficult to test and modify. To overcome such problem, the ISO has developed a layered approach. In a layered approach, networking concept is divided into several layers, and each layer is assigned a particular task. Therefore, we can say that networking tasks depend upon the layers
+
+Need of OSI : to simplify the design of network architecture . In a layered architecture, unmanageable tasks are divided into several small and manageable tasks.
+
+
+The basic elements of layered architecture are services, protocols, and interfaces.
+
+    Service: It is a set of actions that a layer provides to the higher layer.
+    Protocol: It defines a set of rules that a layer uses to exchange the information with peer entity. These rules mainly concern about both the contents and order of the messages used.
+    Interface: It is a way through which the message is transferred from one layer to another layer.
+
+
+  why need layered approach :
+  divide and conquer approach
+  easy to modify
+  easy to test
+
+
+								                                      	OSI Model (Open System Interconnection )
+
+    It is a reference model that describes how information from a software application in one computer moves through a physical medium to the software application in another computer.
+    OSI consists of seven layers, and each layer performs a particular network function.
+    OSI model was developed by the International Organization for Standardization (ISO) in 1984, and it is now considered as an architectural model for the inter-computer communications.
+    OSI model divides the whole task into seven smaller and manageable tasks. Each layer is assigned a particular task.
+    Each layer is self-contained, so that task assigned to each layer can be performed independently.
+
+
+  
+ *  The OSI model is divided into two layers: upper layers and lower layers.
+ *  The upper layer of the OSI model mainly deals with the application related issues, and they are implemented only in the software. The application layer is closest to the end user. Both the end user   and the application layer interact with the software applications.
+  *  The lower layer of the OSI model deals with the data transport issues. The data link layer and the physical layer are implemented in hardware and software. The physical layer is the lowest layer of the OSI model and is closest to the physical medium. The physical layer is mainly responsible for placing the information on the physical medium.
+
+        LAYERS                                              FUNCTIONS
+
+                                                              						                         																			
+APPLICATION LAYER                       this layer provides the servicto the user
+PRESENTATION LAYER						translation ,compression or encrpytion
+SESSION LAYER 							eastablish ,manage and terminate the session
+TRANSPORT LAYER							provides reliable message delivery from process to process
+NETWORK LAYER 							responsible for moving the message from source to destination
+DATA LINK								flow control ,error control
+PHYSICAL LAYER  						provides the phyiscal  medium through which bits are transmitted
+ 
+																
+	                    				                              PHYSICAL LAYER
+
+    The main functionality of the physical layer is to transmit the individual bits from one node to another node.
+    It is the lowest layer of the OSI model.
+    It establishes, maintains and deactivates the physical connection.
+    It specifies the mechanical, electrical and procedural network interface specifications.
+ *   Line Configuration: It defines the way how two or more devices can be connected physically.
+ *   Data Transmission: It defines the transmission mode whether it is simplex, half-duplex or full-duplex mode between the two devices on the network.
+ *  Topology: It defines the way how network devices are arranged.
+
+										                                       DATA LINK LAYER
+
+This layer is responsible for the error-free transfer of data frames.
+It defines the format of the data on the network.
+It is mainly responsible for the unique identification of each device that resides on a local network.
+
+       Framing: The data link layer translates the physical's raw bit stream into packets known as Frames.The Data link layer adds the header and trailer to the frame. The header which is added to the frame contains the hardware destination and source address.
+
+Physical Addressing: The Data link layer adds a header to the frame that contains a destination address. 
+Flow Control:r. It is the technique through which the constant data rate is maintained on both the sides so that no data get corrupted .
+Error Control: Error control is achieved by adding a calculated value CRC (Cyclic Redundancy Check) that is placed to the Data link layer's trailer which is added to the message frame before it is sent to the physical layer. If any error seems to occurr, then the receiver sends the acknowledgment for the retransmission of the corrupted frames.
+Access Control: When two or more devices are connected to the same communication channel, then the data link layer protocols are used to determine which device has control over the link at a given time.
+
+
+										                                        NETWORK LAYER
+    
+    It is a layer that manages device addressing, tracks the location of devices on the network.
+    It determines the best path to move data from source to the destination based on the network conditions, the priority of service, and other factors.
+    The Data link layer is responsible for routing and forwarding the packets.
+    Routers are the layer 3 devices, they are specified in this layer and used to provide the routing services within an internetwork.
+    The protocols used to route the network traffic are known as Network layer protocols. Examples of protocols are IPv4 and Ipv6.
+
+Functions of Network Layer:
+
+    Internetworking: An internetworking is the main responsibility of the network layer. It provides a logical connection between different devices.
+    Addressing: A Network layer adds the source and destination address to the header of the frame. Addressing is used to identify the device on the internet.
+    Routing: Routing is the major component of the network layer, and it determines the best optimal path out of the multiple paths from source to the destination.
+    Packetizing: A Network Layer receives the packets from the upper layer and converts them into packets. This process is known as Packetizing. It is achieved by internet    
+    protocol(IP).
+
+										                                       TRANSPORT LAYER
+
+
+    The Transport layer is a Layer 4 ensures that messages are transmitted in the order in which they are sent and there is no duplication of data.
+    The main responsibility of the transport layer is to transfer the data completely.
+    It receives the data from the upper layer and converts them into smaller units known as segments.
+    This layer can be termed as an end-to-end layer as it provides a point-to-point connection between source and destination to deliver the data reliably.
+
+The two protocols used in this layer are:
+
+     * Transmission Control Protocol
+        It is a standard protocol that allows the systems to communicate over the internet.
+        It establishes and maintains a connection between hosts.
+        When data is sent over the TCP connection, then the TCP protocol divides the data into smaller units known as segments. Each segment travels over the internet using multiple routes, and they arrive in different orders at the destination. The transmission control protocol reorders the packets in the correct order at the receiving end.
+   *  User Datagram Protocol
+        User Datagram Protocol is a transport layer protocol.
+        It is an unreliable transport protocol as in this case receiver does not send any acknowledgment when the packet is received, the sender does not wait for any acknowledgment. Therefore, this makes a protocol unreliable.
+
+Functions of Transport Layer:
+
+    Service-point addressing: Computers run several programs simultaneously due to this reason, the transmission of data from source to the destination not only from one computer to another computer but also from one process to another process. The transport layer adds the header that contains the address known as a service-point address or port address. The responsibility of the network layer is to transmit the data from one computer to another computer and the responsibility of the transport layer is to transmit the message to the correct process.
+
+    Segmentation and reassembly: When the transport layer receives the message from the upper layer, it divides the message into multiple segments, and each segment is assigned with a sequence number that uniquely identifies each segment. When the message has arrived at the destination, then the transport layer reassembles the message based on their sequence numbers.
+
+    Connection control: Transport layer provides two services Connection-oriented service and connectionless service. A connectionless service treats each segment as an individual packet, and they all travel in different routes to reach the destination. A connection-oriented service makes a connection with the transport layer at the destination machine before delivering the packets. In connection-oriented service, all the packets travel in the single route.
+  
+ Flow control: The transport layer also responsible for flow control but it is performed end-to-end rather than across a single link.
+
+  Error control: The transport layer is also responsible for Error control. Error control is performed end-to-end rather than across the single link. The sender transport layer ensures that message reach at the destination without any error.
+
+
+									                                            	Session Layer
+
+    It is a layer 3 in the OSI model.
+    The Session layer is used to establish, maintain and synchronizes the interaction between communicating devices.
+
+Functions of Session layer:
+
+    Dialog control: Session layer acts as a dialog controller that creates a dialog between two processes or we can say that it allows the communication between two processes which can be either half-duplex or full-duplex.
+
+    Synchronization: Session layer adds some checkpoints when transmitting the data in a sequence. If some error occurs in the middle of the transmission of data, then the transmission will take place again from the checkpoint. This process is known as Synchronization and recovery.
+
+
+									                                                Presentation Layer
+
+
+    A Presentation layer is mainly concerned with the syntax and semantics of the information exchanged between the two systems.
+    It acts as a data translator for a network.
+    This layer is a part of the operating system that converts the data from one presentation format to another format.
+    The Presentation layer is also known as the syntax layer.
+
+Functions of Presentation layer:
+
+    Translation: The processes in two systems exchange the information in the form of character strings, numbers and so on. Different computers use different encoding methods, the presentation layer handles the interoperability between the different encoding methods. It converts the data from sender-dependent format into a common format and changes the common format into receiver-dependent format at the receiving end.
+    Encryption: Encryption is needed to maintain privacy. Encryption is a process of converting the sender-transmitted information into another form and sends the resulting message over the network.
+    Compression: Data compression is a process of compressing the data, i.e., it reduces the number of bits to be transmitted. Data compression is very important in multimedia such as text, audio, video.
+
+
+										                                               Application Layer
+
+
+    An application layer serves as a window for users and application processes to access network service.
+    It handles issues such as network transparency, resource allocation, etc.
+    An application layer is not an application, but it performs the application layer functions.
+    This layer provides the network services to the end-users.
+
+Functions of Application layer:
+
+    File transfer, access, and management (FTAM): An application layer allows a user to access the files in a remote computer, to retrieve the files from a computer and to manage the files in a remote computer.
+    Mail services: An application layer provides the facility for email forwarding and storage.
+    Directory services: An application provides the distributed database sources and is used to provide that global information 
+
+
+
+
+								                                              ######## TCP / IP MODEL###########
+
+    The TCP/IP model was developed prior to the OSI model.
+    The TCP/IP model is not exactly similar to the OSI model.
+    The TCP/IP model consists of five layers: the application layer, transport layer, network layer, data link layer and physical layer.
+    The first four layers provide physical standards, network interface, internetworking, and transport functions that correspond to the first four layers of the OSI model and these four layers are represented in TCP/IP model by a single layer called the application layer.
+    TCP/IP is a hierarchical protocol made up of interactive modules, and each of them provides specific functionality.
+
+Here, hierarchical means that each upper-layer protocol is supported by two or more lower-level protocols.
+
+															
+							 APPLICATION LAYER (session,presentation,application)	
+							   TRANSPORT LAYER	
+ 							   NETWORK LAYER
+							   DATA LINK LAYER	
+							   PHYSICAL LAYER
+ 														
+
+
+							                                                  	#### IP ADDRESSING #####
+
+ Classfull Addressing :-
+ Uniqly identification of a device in a netwok.
+ Each IP address is 32 bits long, and they are represented in the form of "dot-decimal notation.
+ Each byte is written in the decimal form, and they are separated by the period.
+
+
+Class |	reserved bits | NET ID  bits | HOST ID bits | No.of networks |   No.of hosts per |                       range network 			
+
+A 	       	0 				    8 		          24 			       power(2,7) 		  pow(2,24)                       0.0.0.0 to 127.255.255.255 
+
+
+B 	      	10 			    16 		            16 			       2 power(14)      pow(2,16)                       128.0.0.0 to 191.255.255.255
+
+
+C 	      	110 	   		24 		            8 			       2 power(21) 		  pow(2,8)                        192.0.0.0 to 223.255.255.255
+
+
+D 		      1110 		    ND 		            ND			           ND				      ND		                        224.0.0.0 to 239.255.255.255
+
+
+E 	      	1111 		    ND 		            ND 			           ND 		    		ND		                        240.0.0.0 to 255.255.255.255
+
+
+Q 1.     201.20.30.40
+
+As this address belongs to class C .
+number of network possible   : pow(2,21) 
+number of host in each network : pow(2,8) - 2[network adddress, broadcase address]
+NETWORK ID : 201.20.30.0
+4TH HOST NUMBER : 201.20.30.4
+LAST HOST NUMBER : 201.20.30.254
+subnet mast : 201.20.30.255
+
+
+Q 2 . 111.25.15.45
+
+this address belong to class A
+nw id : 111.0.0.0
+broadcast address : 111.255.255.255
+valid ip sample : 111.0.0.1 or any other of own choice 
+
+
+
+
+								                                                  ##### CLASSLESS ADDRESS ###
+no classess
+only blocks  [(block_id,hot id)]
+notation:  
+x.y.z.w/n - [/n represent the netwrok id part of block id part]
+20.38.20.40/28 
+
+
+as we observe in above example we have 28 bist represeting the nw id 
+hene we need make zero only host bits in order to get nw id
+20.32.20.00101000 [make host bit to 0] - > 20.32.20.00100000 - > 20.32.20.32/28 this is nw id of this ip address
+no of host in this network : pow(2,4) = 16
+
+
+ 
+							                                                    	##### SUBNETTING #######
+
+Dividing the big network into small networks
+usually done inside the organization in order to reduce the wastage of ip address
+more secure
+
+
+								                                                        1)  FLSM
+Subnetting means dividing a network in multiple small networks. We use subnetting mainly to save the wastage of IP addresses. We will be discussing here subnetting of classful addressing. There are two types of subnetting,
+
+    FLSM (Fixed Length Subnet Mask)
+    VLSM (Variable Length Subnet Mask)
+
+We will be discussing here, how to perform subnetting step by step in both cases?
+1) FLSM (Fixed Length Subnet Mask)
+
+Let’s, consider an IP address 198.168.10.0
+
+Now we have to divide this IP address into 4 subnetwork parts. After dividing we have to find out the range of IP addresses blocks.
+
+4 Simple Steps for Calculating Network Blocks of IP Address
+
+Step 1: Calculate the required subnet bit. In this subnetting process, we will borrow the bit from the host side.
+
+Now here is the question arise, which bits belong to the host side and network side?
+
+We will find it with the help of subnet masks. We are given a Class C IP address and default subnet mask for Class C is 255.255.255.0
+
+Every octet consists of 8-bit in this case we are having 24 1’s in network bit.
+FLSM
+
+As we know that every binary value having two possible values either 0 or 1. And with one binary we can make two value and with two binary values, we can make four values. And with three binary value, we can make 8 values and so on.
+
+    i.e.
+    21 = 2
+    22 = 4
+    23 = 8
+    24 = 16
+
+Here, we need to configure 4 subnets for this we need to borrow 2 bits and making the MSB of host bit of subnet mask to 1 and the value we will get,
+
+11111111.11111111.11111111.11000000
+
+From this we get the mask value for the subnet.
+
+Step 2: In this step we will be calculating updated subnet mask.
+
+i.e. 255.255.255.192 (The decimal equivalent of upper mask in binary)
+
+Step 3: We will find the range in this step.
+
+Formula,
+
+Range: (Maximum Subnet Mask – Updated Subnet Mask)
+Maximum Subnet Mask is always 255.255.255.255 for every case
+
+    255.255.255.255
+  - 255.255.255.192
+  =   0.  0.  0. 63
+
+Here is the range for network we have got is 0.0.0.63
+
+Step 4: Now we will divide the whole network with the help of the range.
+
+First Network Block: 198.168.10.0 – 198.168.10.63
+
+For this block Network ID will be 198.168.10.0 and Broadcast address will be 198.168.10.63
+
+Second Network Block:198.168.10.64 – 198.168.10.127
+
+For this block Network ID will be 198.168.10.64 and Broadcast address will be 198.168.10.127
+
+Third Network Block: 198.168.10.128 – 198.168.10.191
+
+For this block Network ID will be 198.168.10.128 and Broadcast address will be 198.168.10.191
+
+Fourth Network Block:198.168.10.192 – 198.168.10.255
+
+For this block Network ID will be 198.168.10.192 and Broadcast address will be 198.168.10.255
+
+Subnet masks will remain same for every network block i.e. 255.255.255.192
+
+
+
+.
+
+ 
+						                                              	2) VLSM(Variable Length Subnet Mask)
+
+Difference between FLSM and VLSM is that VLSM divide Network into multiple networks according to its necessity. In this type of subnetting, you will be given no of required IP addresses and you have to find the Network Blocks accordingly.
+
+Let’s take the same IP address 198.168.10.0,
+
+This time it is given that I have to configure such a network in such a way that given network able to provide 50 IP addresses and 20 IP addresses.
+
+3 Simple Steps for Calculating Networks Blocks
+
+Step 1: Calculate host bit.
+
+For the first case it is given 50 IP addresses is required but 1 IP is required for Network address and another is for Broadcast address. So total requirement is 50+2=50 IP addresses.
+
+For providing that much value we have to compare like this way: if,
+VLSM
+
+From here we can get that 6 Host bit is required,
+Host bit = 6
+
+Step 2: Find out Network bit with the help of the given formula
+
+Network bit= (32 – Host bit)
+In this case Network bit = 32 – 6 =26
+
+Step 3: Calculate updated subnet mask
+
+As we all know network bit is represented by 1 and Host bit is represented by 0.
+
+Now we have the updated subnet mask:
+
+11111111.11111111.11111111.11000000
+255.255.255.192
+
+Now, we will find the range using the formula which we have used in FLSM, i.e.
+Range = Maximum Subnet Mask – Updated Subnet Mask
+Then we will get the final Range
+
+    255.255.255.255
+  - 255.255.255.192
+  =   0.  0.  0. 63
+
+Network Block for the 50 IP addresses is 198.168.10.0 to 198.168.10.63
+Again, for 20 IP addresses we have to follow same 3 steps.
+Total IP required = 22+2=22
+
+Step 1:
+VLSM 1
+
+Host Bit = 5
+
+Step 2: Now, Network Bit= 32 – 5= 27
+
+Step 3: Updated mask
+
+Network Bit = 1
+Host Bit =0
+11111111.11111111.11111111.11100000
+255.255.255.224
+
+Updated Mask Value = 255.255.255.224
+Range is 0.0.0.31
+
+Network Block for 22 IP addresses is from 198.168.10.64 to 198.168.10.95
+
+
+                                                                    # Drawback of IPv4 #
+
+Currently, the population of the world is 7.6 billion. Every user is having more than one device connected with the internet, and private companies also rely on the internet. As we know that IPv4 produces 4 billion addresses, which are not enough for each device connected to the internet on a planet. Although the various techniques were invented, such as variable- length mask, network address translation, port address translation, classes, inter-domain translation, to conserve the bandwidth of IP address and slow down the depletion of an IP address. In these techniques, public IP is converted into a private IP due to which the user having public IP can also use the internet. But still, this was not so efficient, so it gave rise to the development of the next generation of IP addresses, i.e., IPv6.
+
+
+								                                                       #  IPV6  #
+IPv6 is a 128-bit hexadecimal address. IPv6 provides a large address space, and it contains a simple header as compared to IPv4. 
+IPv6 is a 128-bit hexadecimal address made up of 8 sets of 16 bits each, and these 8 sets are separated by a colon. In IPv6, each hexadecimal character represents 4 bits. So, we need to convert 4 bits to a hexadecimal number at a time
+
+ FDEC.BA98.7654.3210.ADEC.BDFF.2990.FFFF 
+ 
+ 
+ 
+ 
+ 
+                                            IPV4                                                                   # IPV6 #
+ 
+Address length 			              IPv4 is a 32-bit address. 			                                          IPv6 is a 128-bit address.
+
+Fields 				                  	IPv4 is a numeric address                                                IPv6 is an alphanumeric address that
+															consists of 8 fieldthat consists of 4 fields
+						which are separated by dot (.). 	 fields, which are separated by colon.
+						
+Classes 	       	            	IPv4 has 5 different classes that includes                                  no concept of class 
+                                  class A,B,C,D
+ 						
+
+ Vlsm 				                        supports                                                               It does  not support
+
+Respresentaion 	            	  It is represented in decimal 	                                            It is represented in hexadecimal
+  
+
+
+      		                    
+                                                                    ------finished basic theory-------
+
+
+
+
+
+
+
+
+
+
+
